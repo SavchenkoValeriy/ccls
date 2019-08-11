@@ -170,6 +170,7 @@ MessageHandler::MessageHandler() {
   // clang-format off
   Bind("$ccls/call", &MessageHandler::ccls_call);
   Bind("$ccls/fileInfo", &MessageHandler::ccls_fileInfo);
+  Bind("$ccls/implementation", &MessageHandler::ccls_implementation);
   Bind("$ccls/info", &MessageHandler::ccls_info);
   Bind("$ccls/inheritance", &MessageHandler::ccls_inheritance);
   Bind("$ccls/member", &MessageHandler::ccls_member);
